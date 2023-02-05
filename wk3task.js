@@ -30,3 +30,13 @@ for (let j =0; j < names.length; j++) {
 }
     console.log(b) ;
    // all the names are printed by a separated space 
+
+   //question3 - I will access the last element: number of elements minus one:
+   //nameArray[nameArray.length - 1]
+
+   // Question 4 - First element of array = Array[0]
+
+   let nameLengths=[] ;
+   for (let i = 0; i < names.length; i++) {
+        nameLengths.push(names[i].length) ;
+   } console.log(nameLengths) ;
