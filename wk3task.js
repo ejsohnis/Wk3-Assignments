@@ -190,6 +190,9 @@ console.log(will);
 
 function willGoToSwim(carRunning, poolOpen, feelingWell) {
     if (carRunning && poolOpen && feelingWell) {
+        //if my car is running well and the pool is open, 
+        //and if i'm feeling well, so I will go to swim
+        //and the output is true, I wrote it because it's fun!!
         return true;
     }
     else {
