@@ -39,4 +39,11 @@ for (let j =0; j < names.length; j++) {
    let nameLengths=[] ;
    for (let i = 0; i < names.length; i++) {
         nameLengths.push(names[i].length) ;
+        //I add the length of each name to the nameLengths array 
    } console.log(nameLengths) ;
+
+let c = 0;
+   for(let i=0; i < nameLengths.length; i++) {
+    c= c + nameLengths[i] ;
+   // c calculates all the length of the elemnets in the array 
+   } console.log(c) ;
