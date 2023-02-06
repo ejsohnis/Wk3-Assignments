@@ -15,6 +15,8 @@ count = count / ages.length;
 console.log(count);
 //I print the result
 
+
+
 let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 let a = 0;
 // a counts the letters and then divide by the number of names to find average
@@ -31,23 +33,34 @@ for (let j = 0; j < names.length; j++) {
 console.log(b);
 // all the names are printed by a separated space 
 
+
+
 //question3 - I will access the last element: number of elements minus one:
 //nameArray[nameArray.length - 1]
 
-// Question 4 - First element of array = Array[0]
+// answer to question 4 - First element of array = Array[0]
+
+//answer to question 5
 
 let nameLengths = [];
+//creation of a new array that it's called nameLengths
 for (let i = 0; i < names.length; i++) {
     nameLengths.push(names[i].length);
     //I add the length of each name to the nameLengths array 
 } console.log(nameLengths);
 
+
+//answer to question 6
+
 let c = 0;
 for (let i = 0; i < nameLengths.length; i++) {
     c = c + nameLengths[i];
-    // c calculates all the length of the elemnets in the array 
+    // c calculates the sum of all the length of the elemnets in the array 
 }
 console.log(c);
+
+
+//answer to question 7
 
 // function wordRepeat(w, n) {
 //     //in this function 
@@ -72,6 +85,9 @@ function wordRepeat(w, n) {
 
 console.log(wordRepeat("Hello", 3));
 
+
+//answer to question 8
+
 function fullName(firstName, lastName) {
     //fullName is the name of the function that combine
     //first and last name and it returns (come out) a full name
@@ -84,7 +100,12 @@ function fullName(firstName, lastName) {
 }
 
 let w = fullName("Janifer", "Lopez");
+//when we call the function- we need to pace real name
 console.log(w);
+
+
+//answer to question 9
+
 
 function sumNumbers(number) {
     // i created a function that includes numbers
@@ -112,6 +133,8 @@ console.log(s);
 //printing of the sum of numbers
 
 
+//answer to question 10
+
 function average(number) {
     // i created a function that includes numbers
     let sum = 0;
@@ -121,6 +144,7 @@ function average(number) {
 
     }
     sum = sum / number.length;
+    //finding the average
     return sum;
 
 }
@@ -131,7 +155,8 @@ let av = average(Array);
 console.log(av);
 //printing of the sum of numbers
 
-//question 11
+
+//answer to question 11
 
 function avarageOfArrays(num1, num2) {
     let sum1 = 0;
@@ -164,7 +189,8 @@ let num2 = [15, 70, 42, 30, 18];
 let average1 = avarageOfArrays(num1, num2);
 console.log(average1);
 
-//question 12
+
+//answer to question 12
 
 function willBuyDrink(isHotOutside, moneyInPocket) {
     //Creation of a function that is called willBuyDrink
@@ -186,7 +212,7 @@ let will = willBuyDrink(true, 15);
 console.log(will);
 
 
-//question 13
+//answer to question 13
 
 function willGoToSwim(carRunning, poolOpen, feelingWell) {
     if (carRunning && poolOpen && feelingWell) {
